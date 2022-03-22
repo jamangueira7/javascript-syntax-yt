@@ -10,8 +10,8 @@ class EntityBase {
     }
 
     get name() {
-        const preffix = this.#gender === "male" ? "Mr." : "Ms."
-        return `${preffix} ${this.#name}`
+        const prefix = this.#gender === "male" ? "Mr." : "Ms."
+        return `${prefix} ${this.#name}`
     }
 
     get birthYear() {

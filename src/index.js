@@ -12,6 +12,7 @@ console.log(new EntityBase({
 
 const assert = require('assert')
 const Employee = require('./employee')
+const Util = require('./util')
 
 const GENDER = {
     male: 'male',
@@ -38,5 +39,5 @@ const GENDER = {
     assert.deepStrictEqual(employee.name, "Mr. Joãozinho")
     assert.deepStrictEqual(employee.age, undefined)
     assert.deepStrictEqual(employee.gender, undefined)
-    assert.deepStrictEqual(employee.grossPay, 'R$ 5.000,40')
+    assert.deepStrictEqual(employee.grossPay, Util.formatCurrency(5000.40))
 }
