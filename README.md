@@ -21,23 +21,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Uma galeria de fotos em React.
+Treinando os conceitos da sintaxe do JavaScript.
 
 Canal [Erick Wendel](https://www.youtube.com/watch?v=DiqLe0nDekA)
 
-É preciso criar uma conta no firebase e configura o env.example. Renomeie o arquivo env.exemple para env.local e preencha a seguintes variaves com os dados da sua conta: 
-
 Código fonte original [aqui](https://github.com/ErickWendel/javascript-syntax-yt)
 
+Testes:
 <p align="center">
-  <img alt="game" src=".github/project.PNG">
+  <img alt="game" src=".github/tests.PNG">
 </p>
 
 ## 🚀 Como Rodar
 
 - Clone o projeto.
 - Entre na pasta do projeto e rode npm install.
-- "npm start".
+- "node src/index.js".
 
 ## 🤔 Como contribuir
 
